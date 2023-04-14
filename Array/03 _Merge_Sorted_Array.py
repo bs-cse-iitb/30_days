@@ -7,7 +7,6 @@ class Solution(object):
         :type n: int
         :rtype: None Do not return anything, modify nums1 in-place instead.
         """
-
         for i in range(1,m+1):
             nums1[m+n-i] = nums1[m-i]
         

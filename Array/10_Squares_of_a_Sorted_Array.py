@@ -4,7 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """   
-        #ls = nums # this will reference the same listnot create new copy
+        #ls = nums # this will reference the same list not create new copy
         ls = list(nums)
         j =0 
         k = len(nums)-1
